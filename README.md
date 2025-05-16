@@ -51,7 +51,9 @@ pip install django, djangorestframework, Pillow
 3. Выполни миграции и создай суперпользователя:
 
 python manage.py makemigrations
+
 python manage.py migrate
+
 python manage.py createsuperuser
 
 4. Запусти сервер:
